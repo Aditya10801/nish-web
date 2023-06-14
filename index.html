@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <Script> // Function to detect if the user is on a mobile device
         function isMobileDevice() {
@@ -56,9 +58,11 @@
             <div class="flex flex-cols justify-center items-center h-full text-center ">
                 <div class="grid gap-5">
                     <h1 class="text-7xl font-semibold bg-gradient-to-r from-[#A0A0A0] to-[#000000] bg-clip-text text-transparent "
-                        data-scroll="" data-scroll-speed="3" data-scroll-position="top">Hi, I'm Nishchay</h1>
-                    <div class="text-gray-500 "><ion-icon name="location-sharp"></ion-icon> Delhi, India </div>
-                    <div class=' text-center text-gray-500 w-[35vw]'>
+ data-aos="fade-up">Hi, I'm Nishchay</h1>
+                    <div class="text-gray-500 " data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom"><ion-icon name="location-sharp"></ion-icon> Delhi, India </div>
+                    <div class=' text-center text-gray-500 w-[35vw]' data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
                         I’m a 17-year-old designer, passionate about graphic design.
                         Alongside my studies, I’ve dedicated myself to honing my
                         skills and building a business around my passion. I’m organised,
@@ -69,9 +73,9 @@
                     <div class="flex flex-cols justify-center items-center">
 <div class="w-80 flex flex-cols justify-center  text-gray-700 items-center text-2xl gap-10 h-12">
     
-    <a href="https://www.instagram.com/thesaltynish/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
-        <a href="https://www.behance.net/nishchaybhatia" target="_blank"><ion-icon name="logo-behance"></ion-icon></a>
-        <a href="https://www.linkedin.com/in/nishchay-bhatia-5770aa272/"  target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+    <a href="https://www.instagram.com/thesaltynish/" target="_blank" data-aos="zoom-in"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="https://www.behance.net/nishchaybhatia" target="_blank" data-aos="zoom-in"> <ion-icon name="logo-behance"></ion-icon></a>
+        <a href="https://www.linkedin.com/in/nishchay-bhatia-5770aa272/" data-aos="zoom-in" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
 </div>
 </div>
                 </div>
@@ -86,8 +90,8 @@
     <section class=" w-screen py-10 " id="about">
         <div class="h-52 ">
             <div class="text-[30vh]  h-full flex flex-cols justify-center items-center text-gray-100">
-                <span class='absolute font-bold'>ABOUT ME</span>
-                <span
+                <span class='absolute font-bold' data-aos="zoom-out-up">ABOUT ME</span>
+                <span data-aos="zoom-out-down"
                     class="absolute font-semibold text-2xl bg-gradient-to-r from-[#A0A0A0] to-[#000000] bg-clip-text text-transparent">Nishchay
                     is a graphic designer based in Delhi</span>
             </div>
@@ -96,9 +100,11 @@
         <Div class=" flex flex-cols mt-60 mx-10 h-full  ">
             <div class=" w-[60vw]">
                 <Div class='grid gap-5'>
-                    <div class="text-7xl bg-gradient-to-r from-[#A0A0A0] to-[#000000] bg-clip-text text-transparent">
+                    <div data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom" class="text-7xl bg-gradient-to-r from-[#A0A0A0] to-[#000000] bg-clip-text text-transparent">
                         DESIGNER <br> & ENTREPRENEURIAL <br> CREATIVE.</div>
-                    <Div class="text-[1.35rem] text-gray-500">
+                    <Div data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom" class="text-[1.35rem] text-gray-500">
                         I’m a 17-year-old designer, passionate about graphic
                         design. Alongside my studies, I’ve dedicated myself
                         to honing my skills and building a business around
@@ -108,7 +114,8 @@
                         connections and exciting opportunities!
                     </Div>
                 </div>
-                <div class="w-[40vw]  h-52 mt-10 text-gray-500">
+                <div data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom" class="w-[40vw]  h-52 mt-10 text-gray-500">
                     <div class='flex flex-cols'>
                         <div class="text-2xl w-1/2 ">SERVICES
                             <div class="grid mt-2 ">
@@ -168,8 +175,8 @@
     <section class="h-screen w-screen py-10 " id="work"> 
         <div class="h-52 mt-32">
             <div class="text-[30vh]  h-full flex flex-cols justify-center items-center text-gray-100">
-                <span class='absolute font-bold'>WORK</span>
-                <span
+                <span class='absolute font-bold' data-aos="zoom-out-up">WORK</span>
+                <span data-aos="zoom-out-down"
                     class="absolute font-semibold text-2xl bg-gradient-to-r from-[#A0A0A0] to-[#000000] bg-clip-text text-transparent">THE WORK SECTION IS A WORK IN PROGRESS   </span>
             </div>
         </div>
@@ -179,8 +186,8 @@
     <section class=" w-screen" id="contact">
 <div class="h-52 ">
             <div class="text-[27vh]  h-full flex flex-cols justify-center items-center text-gray-100">
-                <span class='absolute font-bold'>CONTACT ME ! </span>
-                <span
+                <span class='absolute font-bold' data-aos="zoom-out-up">CONTACT ME ! </span>
+                <span data-aos="zoom-out-down"
                     class="absolute font-semibold text-2xl bg-gradient-to-r from-[#A0A0A0] to-[#000000] bg-clip-text text-transparent">HOW WILL WE WORK TOGETHER     </span>
             </div>
         </div>
@@ -242,5 +249,7 @@ I value collaboration and aim to make the process enjoyable. Excited to connect 
         </div>
       </footer>
 </body>
-
+<script>
+  AOS.init();
+</script>
 </html>
