@@ -1,0 +1,246 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <Script> // Function to detect if the user is on a mobile device
+        function isMobileDevice() {
+          return /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        }
+        
+        // Redirect if the user is on a mobile device
+        if (isMobileDevice()) {
+          window.location.href = "mobile.html"; // Replace with your desired mobile page URL
+        }
+    </Script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.0.6/dist/locomotive-scroll.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js"></script>
+    <script>
+        (function () {
+            var scroll = new LocomotiveScroll();
+        })();
+    </script>
+    
+</head>
+
+<body>
+    <div class="custom-cursor"></div>
+    <header class="h-20  px-10 mt-5 sticky top-0 z-50 bg-white">
+
+        <div class="flex flex-cols lg:md:justify-end ">
+
+            <div class=" absolute  h-20 flex flex-cols justify-center items-center  gap-10 bg-white">
+
+                <a href="#work"><button 
+                    class="h-10 w-32 bg-white shadow-3xl drop-shadow-lg rounded-full flex flex-cols justify-center items-center">Work</button></a>
+                    <a href="#about"><button 
+                    class="h-10 w-32 bg-white shadow-3xl drop-shadow-lg rounded-full flex flex-cols justify-center items-center ">About</button></a>
+               <a href="#contact"> <button 
+                    class="h-10 w-32 bg-white shadow-3xl drop-shadow-lg rounded-full flex flex-cols justify-center items-center ">Contact</button></a>
+
+            </div>
+        </div>
+        <div class="flex flex-cols lg:md:justify-start">
+          <a href="index.html">  <div class="absolute justify-end  bg-white text-2xl"><img src="mascot.png" class="w-20"></div></a>
+        </div>
+    </header>
+    <section >
+     
+
+        <div class="h-[85vh] " >
+            <div class="flex flex-cols justify-center items-center h-full text-center ">
+                <div class="grid gap-5">
+                    <h1 class="text-7xl font-semibold bg-gradient-to-r from-[#A0A0A0] to-[#000000] bg-clip-text text-transparent "
+                        data-scroll="" data-scroll-speed="3" data-scroll-position="top">Hi, I'm Nishchay</h1>
+                    <div class="text-gray-500 "><ion-icon name="location-sharp"></ion-icon> Delhi, India </div>
+                    <div class=' text-center text-gray-500 w-[35vw]'>
+                        I’m a 17-year-old designer, passionate about graphic design.
+                        Alongside my studies, I’ve dedicated myself to honing my
+                        skills and building a business around my passion. I’m organised,
+                        disciplined, and goal-oriented, but I also value an environment that
+                        nurtures my creativity. Looking forward to new connections and
+                        exciting opportunities!
+                    </div>
+                    <div class="flex flex-cols justify-center items-center">
+<div class="w-80 flex flex-cols justify-center  text-gray-700 items-center text-2xl gap-10 h-12">
+    
+    <a href="https://www.instagram.com/thesaltynish/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="https://www.behance.net/nishchaybhatia" target="_blank"><ion-icon name="logo-behance"></ion-icon></a>
+        <a href="https://www.linkedin.com/in/nishchay-bhatia-5770aa272/"  target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+</div>
+</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="h-10 absolute bottom-2 right-10" >
+            Scroll to discover <ion-icon name="arrow-down-sharp"></ion-icon>
+        </div>
+    </section>
+
+    <section class=" w-screen py-10 " id="about">
+        <div class="h-52 ">
+            <div class="text-[30vh]  h-full flex flex-cols justify-center items-center text-gray-100">
+                <span class='absolute font-bold'>ABOUT ME</span>
+                <span
+                    class="absolute font-semibold text-2xl bg-gradient-to-r from-[#A0A0A0] to-[#000000] bg-clip-text text-transparent">Nishchay
+                    is a graphic designer based in Delhi</span>
+            </div>
+        </div>
+
+        <Div class=" flex flex-cols mt-60 mx-10 h-full  ">
+            <div class=" w-[60vw]">
+                <Div class='grid gap-5'>
+                    <div class="text-7xl bg-gradient-to-r from-[#A0A0A0] to-[#000000] bg-clip-text text-transparent">
+                        DESIGNER <br> & ENTREPRENEURIAL <br> CREATIVE.</div>
+                    <Div class="text-[1.35rem] text-gray-500">
+                        I’m a 17-year-old designer, passionate about graphic
+                        design. Alongside my studies, I’ve dedicated myself
+                        to honing my skills and building a business around
+                        my passion. I’m organised, disciplined, and
+                        goal-oriented, but I also value an environment that
+                        nurtures my creativity. Looking forward to new
+                        connections and exciting opportunities!
+                    </Div>
+                </div>
+                <div class="w-[40vw]  h-52 mt-10 text-gray-500">
+                    <div class='flex flex-cols'>
+                        <div class="text-2xl w-1/2 ">SERVICES
+                            <div class="grid mt-2 ">
+                                <h1 class="text-xl">
+                                    -Brand Identity Design
+                                </h1>
+                                <h1 class="text-xl">
+                                    -Logo Design
+                                </h1>
+                                <h1 class="text-xl">
+                                    -Poster Design
+                                </h1>
+                                <h1 class="text-xl">
+                                    -Web Design
+                                </h1>
+                                <h1 class="text-xl">
+                                    -UI Design
+                                </h1>
+                                <h1 class="text-xl">
+                                    -(Other visual solutions and<br> assets)
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="text-2xl w-1/2">SOFTWARES
+                            <div class="grid mt-2 ">
+                                <h1 class="text-xl">
+                                    01. ADOBE ILLUSTRATOR
+                                </h1>
+                                <h1 class="text-xl">
+                                    02. ADOBE PHOTOSHOP
+                                </h1>
+                                <h1 class="text-xl">
+                                    03. ADOBE XD
+                                </h1>
+                                <h1 class="text-xl">
+                                    04. ADOBE PREMIERE PRO
+                                </h1>
+                                 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </Div>
+            <div class="w-[40vw]  flex flex-cols justify-center  ">
+                <div class="grid gap-10">
+                    <Div class="bg-black rounded-3xl w-[18.5rem] h-[18.5rem]">
+                        <img src="about.jpeg" class="rounded-3xl">
+                        <h1 class=" text-center mt-5">Nishchay Bhatia</h1>
+                        <h1 class=" text-center">( The guy behind all this )</h1>
+                    </Div>
+                </div>
+            </Div>
+        </div>
+
+    
+    </section>
+    <section class="h-screen w-screen py-10 " id="work"> 
+        <div class="h-52 mt-32">
+            <div class="text-[30vh]  h-full flex flex-cols justify-center items-center text-gray-100">
+                <span class='absolute font-bold'>WORK</span>
+                <span
+                    class="absolute font-semibold text-2xl bg-gradient-to-r from-[#A0A0A0] to-[#000000] bg-clip-text text-transparent">THE WORK SECTION IS A WORK IN PROGRESS   </span>
+            </div>
+        </div>
+
+
+    </section>
+    <section class=" w-screen" id="contact">
+<div class="h-52 ">
+            <div class="text-[27vh]  h-full flex flex-cols justify-center items-center text-gray-100">
+                <span class='absolute font-bold'>CONTACT ME ! </span>
+                <span
+                    class="absolute font-semibold text-2xl bg-gradient-to-r from-[#A0A0A0] to-[#000000] bg-clip-text text-transparent">HOW WILL WE WORK TOGETHER     </span>
+            </div>
+        </div>
+
+        <div class="h-[70vh] mt-60 flex flex-cols mt-32 gap-5">
+            <div class="w-1/2 px-10">
+                <h1 class="text-2xl">
+                    Let's discuss your project further. Once you provide initial details, we'll arrange an online meeting to delve into specifics and establish a strong working relationship. 
+<br><br>
+I value collaboration and aim to make the process enjoyable. Excited to connect with you soon!
+                </h1>
+            </div>
+       
+
+        <div class="w-1/2 px-10 ">
+            <form action="https://api.web3forms.com/submit" method="post" class="">
+    
+                <!-- This is a working contact form. 
+                     Get your free access key from: https://web3forms.com/  -->
+            
+                  <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" /> 
+                  <div class="grid gap-6 sm:grid-cols-2">
+                    <div class="relative z-0">
+                      <input type="text" name="name" class="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border- black focus:outline-none focus:ring-0" placeholder=" " />
+                      <label class="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text- black  ">First Name</label>
+                    </div>
+                    <div class="relative z-0">
+                      <input type="text" name="email" class="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border- black focus:outline-none focus:ring-0" placeholder=" " />
+                      <label class="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text- black  ">Last Name</label>
+                    </div>
+                    <div class="relative z-0 col-span-2">
+                        <input type="email" name="email" class="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border- black focus:outline-none focus:ring-0" placeholder=" " />
+                        <label class="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text- black  ">Email Address</label>
+                      </div>
+                    <div class="relative z-0 col-span-2">
+                      <textarea name="message" type="text" class="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border- black focus:outline-none focus:ring-0" placeholder=" "></textarea>
+                      <label class="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text- black  ">Your message</label>
+                    </div>
+                  </div>
+                  <div class="flex flex-cols justify-center items-center mt-20">
+                  <button type="submit" class="mt-5 rounded-md text-3xl px-10 py-2 bg-gradient-to-r from-[#A0A0A0] to-[#000000] bg-clip-text text-transparent font-bold">SUBMIT</button>
+                </div>
+                </form>
+        </div>
+    </div>
+    </section>
+    <footer class="bg-black py-4">
+        <div class="container mx-auto flex items-center justify-between">
+          <div class="text-white"> <!-- Left side -->
+            <span>&copy; 2023 Nishchay Bhatia</span>
+        
+          </div>
+          <div> <!-- Right side -->
+            <a href="https://adityamadan.tech" target="_blank" class=" text-white flex items-center">
+                <span>Developed By <span class="underline underline-offset-4">Aditya Madan</span>
+                
+            </a>
+          </div>
+        </div>
+      </footer>
+</body>
+
+</html>

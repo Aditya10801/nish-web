@@ -1,0 +1,36 @@
+body {
+    cursor: none;
+  }
+  
+  .custom-cursor {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background-image: url(./cool\ mascot.png); /* Replace with your cursor image */
+    background-size: cover;
+    z-index: 9999;
+    pointer-events: none;
+  }
+  
+  .hover-text {
+    color: white;
+    cursor: none;
+  }
+  
+  .hover-text::before {
+    content: '';
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+  }
+  
+  .hover-text:hover::before {
+    display: block;
+  }
+  
